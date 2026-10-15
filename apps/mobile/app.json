@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "HackArena",
+    "slug": "hackarena",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
