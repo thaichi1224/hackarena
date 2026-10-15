@@ -1,13 +1,14 @@
-'use client';
-import AdminPanel from '@/components/AdminPanel';
 import Layout from '../layouts/DefaultLayout';
+import AdminPanel from '@/components/AdminPanel';
 
 export default function AdminPage() {
   return (
     <Layout>
-      <h1 className="text-3xl font-semibold">Admin</h1>
-      <p className="mt-4 text-sm text-slate-300">This area provides CRUD for challenges. Keep your admin secret safe.</p>
-      <div className="mt-6">
+      <div className="space-y-6">
+        <div>
+          <p className="text-xs uppercase tracking-[0.3em] text-cyan-400">Admin Console</p>
+          <h1 className="mt-2 text-3xl font-semibold">Manage challenges</h1>
+        </div>
         <AdminPanel />
       </div>
     </Layout>
